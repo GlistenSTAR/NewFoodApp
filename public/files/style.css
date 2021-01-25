@@ -1,0 +1,577 @@
+/* @override 
+	http://siptv.eu/mylist/css/style_dev.css */
+
+html { 
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+body {
+	background: #333;
+	
+}
+
+h3,h2 {
+	color: #c42557;
+}
+
+a {
+	color: #372b9c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link, a:visited {
+	color: #372b9c;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	width: 840px;
+	margin: 10px auto;
+	background: #fff;
+	padding: 10px 25px 25px 25px;
+	border-radius: 8px;
+	
+}
+
+#mylist_disclaimer p {
+	font-size: 16px;
+	margin: 0px;
+
+}
+
+
+
+/*
+#rc-imageselect, .g-recaptcha {
+
+	-webkit-transform: scale(0.77);
+	 -moz-transform: scale(0.77);
+	  -ms-transform: scale(0.77);
+	   -o-transform: scale(0.77);
+	      transform: scale(0.77);
+	-webkit-transform-origin: 0 0;
+	  -moz-transform-origin: 0 0;
+	   -ms-transform-origin: 0 0;
+	    -o-transform-origin: 0 0;
+	       transform-origin: 0 0;
+}
+*/
+
+
+#captchaBox {
+
+	margin-bottom: 20px;
+}
+
+#messageBox {
+	
+/* 	float: right; */
+	width: 400px;
+	border-radius: 8px;
+	z-index: 2;
+	background: #444;
+	color: white;
+/* 	margin-bottom: 20px; */
+	display: none;
+}
+
+#boxContent {
+	padding: 15px;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+form#mac_form {
+
+}
+
+label#MAC_label {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 6px;
+}
+
+input#mac, input#mac_url, input#mac_file {
+	display: inline;
+	width: 186px;
+	padding: 0px 10px;
+	margin: 0px !important;
+	border-radius: 5px;
+}
+
+input#mac_url {
+	margin-right: 10px !important;
+}
+
+input#mac {
+	margin-right: 20px !important;
+}
+
+input#ott {
+	display: inline;
+	width: 156px;
+	padding: 0px 10px;
+	font-size: 15px;
+}
+
+
+
+label#sh_server {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 10px;
+}
+
+select#server_select {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+#server_select option {
+	
+}
+
+
+input#login, input#pass {
+	display: inline;
+	width: 120px;
+	padding: 0px 10px;
+}
+
+#keep_cell {
+	padding: 6px 5px 0 10px;
+}
+
+label#keep_label, label#logo_label, label#detect_label, label#groups_label {
+
+	float: left;
+	height: 32px;
+	line-height: 12px;
+	margin-top: 0px;
+	width: 45px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 0px 0px 0 10px;
+	margin-right: 5px;
+
+}
+
+input#keep_file, input#detect_epg, input#disable_groups {
+	margin-top: -4px;
+}
+
+
+#select_cell {
+	vertical-align: middle;
+}
+
+#button_cell1, #button_cell2 {
+	vertical-align: middle;
+}
+
+#orderButton {
+	
+	margin: 0 2px 0 0px;
+	
+}
+
+#orderButton:hover {
+	
+	cursor: pointer;
+	
+}
+
+#orderButton img {
+	height: 26px;
+	
+}
+
+g#swap_off {
+	
+	fill: #000;
+	
+}
+
+
+#file_button_cell {
+	vertical-align: middle;
+	
+}
+
+#url_button_cell {
+	vertical-align: middle;
+/* 	border-top: 1px solid #ccc; */
+	
+}
+
+label#add_label {
+	
+	float: left;
+	height: 36px;
+	line-height: 12px;
+	margin-top: 26px;
+	width: 45px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 5px;
+}
+
+input#keep, input#keep_file, input#keep_url, input#logo_file, input#logo_url {
+	height: 28px;
+	margin-right: 15px;
+}
+
+label#url_label, label#epg_label {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 10px;
+}
+
+.file_field {
+	
+	
+}
+
+
+label.file_label {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 10px;
+	margin-left: 10px !important;
+}
+
+label.epg_label {
+	margin-left: 6px !important;
+}
+
+
+input.file {
+	
+	width: 250px;
+	padding: 7px 0 0 10px;
+	font-size: 14px;
+	line-height: 36px;
+
+	
+/*
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+*/
+
+}
+
+input.url, input.epg {
+	width: 250px;
+	padding: 0px 6px 0 10px;
+	font-size: 13px;
+}
+
+input#submit, input.submit {
+	padding: 5px 10px;
+	color: white;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	font-size: 16px;
+	background-color: #a00c41;
+	margin: 0 !important;
+}
+
+input#pin_file, input#pin_url {
+/* 	position: absolute; */
+/*
+	top: 40px;
+	left: 0;
+*/
+	font-size: 16px;
+	margin: 0 !important;
+	text-align: center;
+	display: none;
+}
+
+#pin_file_text, #pin_url_text, #pin_reset_text {
+	
+	text-align: right;
+	margin-right: 5px;
+	display: none;
+}
+
+#pin_reset_text {
+	float: left;
+}
+
+input#pin_file {
+	width: 60px;
+}
+
+input#pin_url {
+	width: 86px;
+}
+
+input#pin_reset {
+	width: 62px;
+	text-align: center;
+	margin-left: 10px;
+	display: none;
+}
+
+
+
+
+input#submit:hover, input.submit:hover {
+	cursor: hand;
+}
+
+label#m3u_gen {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 10px;
+}
+
+input#m3u_gen {
+	height: 36px;
+	margin-right: 10px;
+	border: 2px solid #aebac2;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 400;
+	outline: none;
+	color: #444;
+	float: left;
+}
+
+input#m3u_upload {
+	height: 36px;
+	margin-right: 10px;
+	border: 2px solid #aebac2;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 400;
+	outline: none;
+	color: #444;
+	float: left;
+}
+
+input#m3u_gen_submit {
+	padding: 5px 10px;
+	color: white;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	font-size: 16px;
+	background-color: #a00c41;
+}
+
+input {
+	height: 36px;
+	margin-right: 10px;
+	border: 2px solid #aebac2;
+	border-radius: 6px;
+	font-size: 17px;
+	font-weight: 400;
+	outline: none;
+	color: #444;
+	float: left;
+}
+
+
+
+table.providers th {
+	padding: 10px 0px;
+	background: #ddd;
+	font-size: 18px;
+}
+
+table.providers td {
+	padding: 8px 5px;
+	text-align: center;
+}
+
+
+
+#td_mac {
+
+}
+
+#td_mac input#mac, #td_mac input#mac_url, #td_mac input#mac_file {
+	float: none;
+	display: inline-block;
+	margin-right: 0px;
+}
+
+td.macReset {
+	
+	width: 51%;
+	
+}
+
+#td_plist1, #td_plist2, #td_plist3 {
+	
+	padding: 8px 0;
+	
+}
+
+
+
+#td_file {
+	
+	padding: 8px 0;
+	
+}
+
+#td_url {
+	
+	padding: 8px 0;
+/* 	border-top: 1px solid #ccc; */
+	
+}
+
+
+
+label.url_label, label.file_label, label.epg_label {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0px 0px 0 0;
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+
+
+.url_field, .file_field {
+	height: 36px;
+	margin: 0 -30px 0 0px;
+/* 	margin-bottom: 10px; */
+}
+
+#url_buttons, #file_buttons {
+/* 	background: #eee; */
+	text-align: center;
+	height: 24px;
+	margin: 10px 0 10px 0;
+	padding: 0 10px;
+	
+	
+}
+
+.more_less {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	border-radius: 5px;
+	display: inline-block;
+	background: #aebac2;
+}
+
+/*
+.more_less p {
+
+	position: absolute;
+	
+	line-height: 24px;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+*/
+
+#more_url, #more_file, #more_epg {
+	background: #518c47;
+}
+
+#less_url, #less_file, #less_epg {
+	background: #cb2a2a;
+/* 	display: none; */
+}
+
+#more_url img, #less_url img, #more_file img, #less_file img, #more_epg img, #less_epg img {
+	
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+	
+}
+
+#more_url:hover, #less_url:hover, #more_file:hover, #less_file:hover {
+/*
+	background: #a00c41;
+	color: white;
+*/
+	cursor: hand;
+}
+
+
+
+#td_keep {
+	width: 100px;
+}
+
+
+select#file_country, select#url_country, select#file_logo, select#url_logo {
+	margin: 0 5px 2px 5px;
+	font-size: 12px;
+	width: 80px;
+}
+
+
+select#file_logo {
+	
+	margin-bottom: 16px;
+	
+}
+
+
+input[type="search"], input[type="submit"] {
+	-moz-appearance:none;
+	-webkit-appearance: none;	
+}
+
+input[type="search"]::-webkit-search-decoration,
+/* input[type="search"]::-webkit-search-cancel-button, */
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

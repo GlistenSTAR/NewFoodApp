@@ -1,0 +1,534 @@
+@import url('bootstrap.css');
+
+/*http://localhostcss/bootstrap/css/bootstrap.css*/
+
+
+body {
+
+    direction: ltr;
+
+    background-color: rgba(250, 235, 215, 0.53);
+
+    background-image:url("/../admin/img/blackboard.jpg");
+
+   /*background: url('/img/white-wallpaper-14.jpg')scroll center top/ 100% auto #ECECEC;*/
+
+    color:white;
+
+}
+@font-face {
+    font-family: 'az';
+    src: url('fonts/az.ttf'); 
+    
+}
+
+*{
+  font-family: 'az';
+
+}
+
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+
+    border-color: rgb(55, 152, 138);
+
+}
+
+.navbar-toggle .icon-bar {
+
+    display: block;
+
+    width: 42px;
+
+    height: 4px;
+
+    border-radius: 1px;
+
+    background-image:url("/../images/menu.png");
+
+}
+
+.img-responsive
+
+{
+
+    display:block;
+
+    max-width:100%;
+
+    max-height:auto;
+
+     padding:5px;
+
+     border-radius:40px;
+
+   
+
+}
+
+.News
+
+{
+
+    float:right;
+
+}
+
+.imgButton
+
+        {
+
+            float:left;
+
+            
+
+            border:none;
+
+            padding:5px;
+
+            /*border-top:1px solid grey;*/
+
+        }
+
+
+
+.titel
+
+        {
+
+            
+
+            display:inline;
+
+             padding:5px;
+
+             border:none;  
+
+             text-align:right;
+
+        }
+
+            /*.titel:hover
+
+            {
+
+                background-color:green;
+
+            }*/
+
+.date
+
+        {
+
+            float:right;
+
+             padding:5px;
+
+            
+
+        }
+
+
+
+h3, h1 {
+
+    text-align: center;
+
+}
+
+col-sm-4 {
+
+    float:left;
+
+}
+
+
+
+html {
+
+    direction: ltr;
+
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+
+    float:left;
+
+        
+
+}
+
+
+
+
+
+/*line 4403{}*/
+
+@media (min-width: 768px) {  
+
+  .navbar-nav > li {
+
+    float: left;
+
+  }
+
+
+
+  .navbar {background: url("/images/navbg.gif") repeat scroll 0 0 #2E8BB9;
+
+
+
+  }
+
+  .navbar-inverse {
+
+  background-color:#D0D0D0;
+
+  border-color: rgba(250, 235, 215, 0.00);
+
+}
+
+
+
+  .navbar-inverse .navbar-collapse,
+
+.navbar-inverse .navbar-form {
+
+  border-color: none;
+
+
+
+}
+
+}
+
+
+
+/*line 1779{}*/
+
+@media (min-width: 768px) {
+
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+
+        float:left;
+
+    }
+
+.col-sm-4 {
+
+    text-align: center;
+
+        
+
+}
+
+}
+
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+
+    text-align: center;
+
+}
+
+
+
+.row {
+
+    background-color: none;
+
+    border-top-style: none;
+
+        border-color: white;
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .container .jumbotron, .container-fluid .jumbotron {
+
+        border: dotted;
+
+        background-color: aliceblue;
+
+    }
+
+}
+
+/*line 4663{}*/
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+
+    border-color:none;
+
+}
+
+
+
+
+
+.logo{
+
+    margin-top: -20px;
+
+    margin-bottom: -5px;
+
+    /*height: 94px;*/
+
+}
+
+/*line 1085{}*/
+
+body {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-size: 14px;
+
+  line-height: 1.42857143;
+
+  color: #333;
+
+  background-color: rgba(251, 247, 231, 0.25);
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+}
+
+
+
+input, button, select, textarea {
+
+    border-style: ridge;
+
+    border-color: lightskyblue;
+
+}
+
+
+
+.carousel-inner > .item > img,
+
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+
+      margin: auto;
+
+  }
+
+
+
+.logo1 {
+
+    width: 100%;
+
+}
+
+.logo2 {
+
+    width: 100%;
+
+}
+
+.logo3 {
+
+    width: 100%;
+
+}
+
+
+
+.collapse {
+
+  display: none;
+
+}
+
+.collapse1 {
+
+  display: none;
+
+}
+
+.collapse2 {
+
+  display: none;
+
+}
+
+.collapse3 {
+
+  display: none;
+
+}
+
+
+
+titlform {
+
+    display: inline-block;
+
+    max-width: 100%;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+    float: right;
+
+    text-align: center
+
+}
+
+
+
+.Tel{
+
+    float:right;
+
+    color:blue;
+
+    
+
+}
+
+
+
+.dropdown-menu {
+
+  position: absolute;
+
+  top: 100%;
+
+  right: 0;
+
+  z-index: 1000;
+
+  display: none;
+
+  float: right;
+
+  min-width: 140px;
+
+  padding: 5px 0;
+
+  margin: 2px 0 0;
+
+  font-size: 18px;
+
+  font-color:#fff;
+
+  text-align: left;
+
+  list-style: none;
+
+  background-color: rgba(45, 135, 181, 1);
+
+  -webkit-background-clip: padding-box;
+
+          background-clip: padding-box;
+
+  border: 1px solid rgba(0, 0, 0, .15);
+
+  border-bottom:0px solid rgba(0, 0, 0, .15);
+
+  border-left:0px solid rgba(0, 0, 0, .15);
+
+  border-right:0px solid rgba(0, 0, 0, .15);
+
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+          text-align:right;
+
+}
+
+.dropdown-menu > li > a:hover,
+
+.dropdown-menu > li > a:focus {
+
+  color: #262626;
+
+  text-decoration: none;
+
+  background-color: #f5f5f5;
+
+}
+
+    .dropdown-menu > li > a
+
+    {
+
+        color:white;
+
+    }
+
+    .navbar-inverse .navbar-nav > .open > a,
+
+.navbar-inverse .navbar-nav > .open > a:hover,
+
+.navbar-inverse .navbar-nav > .open > a:focus {
+
+  color: #fff;
+
+  background-color: #2E8BB9;
+
+}
+
+
+
+@media (max-width: 768px)
+
+{
+
+    .navbar-inverse {
+
+  
+
+  border-color: rgba(250, 235, 215, 0.00);
+
+}
+
+
+
+  .navbar-inverse .navbar-collapse,
+
+.navbar-inverse .navbar-form {
+
+  border-color: none;
+
+
+
+}
+
+    .navbar
+
+    {
+
+
+
+        background: rgb(55, 152, 138);
+
+border-color:none;
+
+    }
+
+
+
+}
